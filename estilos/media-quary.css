@@ -116,7 +116,7 @@ iconcolor #9BA4A3
     }
 
     form > div#campo > input {
-        width: 80%;
+        width: 91%;
         height: 45px;
     }
 
@@ -130,7 +130,7 @@ iconcolor #9BA4A3
         color: rgb(255, 255, 255);
         border: none;
         border-radius: 50px;
-        background-color: var(--background1);
+        background-color: #58af9c;
         cursor: pointer;
 
         top: 50%;
@@ -201,7 +201,7 @@ iconcolor #9BA4A3
     }
 
     form > div#campo > input {
-        width: 80%;
+        width: 93%;
         height: 45px;
     }
 
