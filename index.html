@@ -8,24 +8,41 @@
             href="../fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css"
         />
         <title>Tela de login</title>
-        <link rel="stylesheet" href="estilos/style.css">
+        <link rel="stylesheet" href="estilos/style.css" />
+        <link rel="stylesheet" href="estilos/media-quary.css" />
     </head>
     <body>
         <main>
             <section id="login">
                 <div id="fundo2">
-                    <h1>Bem vindo de Volta!</h1>
+                    <h1>Bem vindo!</h1>
                     <p>Agradecemos sua volta, faça sua login imediatamente.</p>
 
                     <input type="submit" value="Entrar" />
                 </div>
-                
+
                 <div id="formulario">
                     <h1>Crie sua Conta</h1>
 
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-google"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <div id="boxicons">
+                        <a href="#">
+                            <div id="icons">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div id="icons">
+                                <i class="fa-brands fa-google"></i>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div id="icons">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </a>
+                    </div>
 
                     <p>Logue com seu usuário abaixo.</p>
 
@@ -64,10 +81,14 @@
                                 autocomplete="current-password"
                             />
                             <label for="isenha">Senha</label>
+                       
                         </div>
-
-                        <input type="submit" value="Entrar" />
+                        
+                        <input type="submit" value="Login" />
+                        
                     </form>
+                </div>
+
                 </div>
             </section>
         </main>
