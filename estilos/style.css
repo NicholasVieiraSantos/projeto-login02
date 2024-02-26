@@ -134,6 +134,11 @@ div#icons > i {
     cursor: pointer;
 }
 
+div#icons > i:hover {
+    color: var(--fontcolor);
+    transition: 0.3s;
+}
+
 div#formulario > p {
     text-align: center;
     color: #bdbdbd;
@@ -179,9 +184,8 @@ div#campo > input:focus {
 }
 
 div#campo > input::placeholder {
-    color: var(--fontcolorform);
+    color: var(--backgroundform);
 }
-
 form > input[type="submit"] {
     display: block;
     margin-top: 40px;
