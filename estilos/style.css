@@ -167,7 +167,7 @@ div#campo > label {
 }
 
 div#campo > input {
-    background-color: var(--backgroundform);
+    background-color: transparent;
     font-size: 1em;
     width: calc(100% - 38px);
     height: 95%;
