@@ -184,7 +184,7 @@ div#campo > input:focus {
 }
 
 div#campo > input::placeholder {
-    color: var(--backgroundform);
+    color: var(--fontcolorform);
 }
 form > input[type="submit"] {
     display: block;
