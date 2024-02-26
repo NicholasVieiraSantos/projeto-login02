@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="../fontawesome-free-6.5.1-web/fontawesome-free-6.5.1-web/css/all.min.css"
+        />
+        <title>Tela de login</title>
+        <link rel="stylesheet" href="estilos/style.css">
+    </head>
+    <body>
+        <main>
+            <section id="login">
+                <div id="fundo2">
+                    <h1>Bem vindo de Volta!</h1>
+                    <p>Agradecemos sua volta, faça sua login imediatamente.</p>
+
+                    <input type="submit" value="Entrar" />
+                </div>
+                
+                <div id="formulario">
+                    <h1>Crie sua Conta</h1>
+
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+
+                    <p>Logue com seu usuário abaixo.</p>
+
+                    <form action="login.php" method="post">
+                        <div id="campo">
+                            <i class="fa-regular fa-user"></i>
+                            <input
+                                type="text"
+                                name="nome"
+                                id="inome"
+                                placeholder="Nome"
+                                autocomplete="username"
+                            />
+                            <label for="inome">nome</label>
+                        </div>
+
+                        <div id="campo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <input
+                                type="email"
+                                name="email"
+                                id="iemail"
+                                placeholder="E-mail"
+                                autocomplete="email"
+                            />
+                            <label for="iemail">E-mail</label>
+                        </div>
+
+                        <div id="campo">
+                            <i class="fa-solid fa-lock"></i>
+                            <input
+                                type="password"
+                                name="senha"
+                                id="isenha"
+                                placeholder="Senha"
+                                autocomplete="current-password"
+                            />
+                            <label for="isenha">Senha</label>
+                        </div>
+
+                        <input type="submit" value="Entrar" />
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

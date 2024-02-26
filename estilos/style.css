@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/* PALETA DE CORES 
+background #FFFFFF
+background1 #58AF9C
+backgroundform #ECF0F1
+fontcolor #6FB0A3
+fontcolor1 #EEFDF8
+fontcolorform #B6B5B4
+iconcolor #9BA4A3
+
+*/
+
+:root {
+    --background: #ecf0f1;
+    --background0: #ffffff;
+    --background1: #58af9c;
+    --backgroundform: #ecf0f1;
+    --fontcolor: #6fb0a3;
+    --fontcolor1: #eefdf8;
+    --fontcolorform: #b6b5b4;
+    --iconcolor: #9ba4a3;
+}
+
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    background-color: var(--background);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    overflow: hidden;
+
+    background-color: var(--background0);
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.199);
+
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#fundo2 {
+    background-color: var(--background1);
+    height: 200px;
+    text-align: center;
+}
+
+section#login > div#fundo2 > h1 {
+    color: var(--fontcolor1);
+    padding: 20px 20px 5px 20px;
+}
+
+section#login > div#fundo2 > p {
+    color: #eeeeee;
+    font-size: 0.7em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+section#login > div#fundo2 > input {
+    width: 200px;
+    height: 30px;
+    background-color: var(--background1);
+    color: var(--background0);
+    border: 1px solid var(--background0);
+    border-radius: 50px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 20px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    color: var(--fontcolor);
+    margin-bottom: 10px;
+}
